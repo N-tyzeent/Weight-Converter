@@ -9,7 +9,22 @@ form {
   max-width: 300px;
   background-color: blue;
   color: white;
-  width: 500px;
-  height: 300px;
+  /* width: 500px;
+  height: 300px; */
   padding: 13px;
+}
+
+
+@media (min-width: 375px) {
+    .section1, form {
+        width: 300px;
+    }
+
+    
+}
+
+@media (min-width: 768px){
+    .section1, form{
+        width: 900px;
+    }
 }
